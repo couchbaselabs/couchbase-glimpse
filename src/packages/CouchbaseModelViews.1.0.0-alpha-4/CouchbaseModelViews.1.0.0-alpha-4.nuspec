@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>CouchbaseModelViews</id>
+    <version>1.0.0-alpha-4</version>
+    <title>CouchbaseModelViews</title>
+    <authors>Couchbase,  Inc.</authors>
+    <owners>Couchbase,  Inc.</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/jzablocki/couchbase-model-views</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Framework for creating Couchbase views from domain objects.</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>Couchbase nosql</tags>
+    <dependencies>
+      <dependency id="CouchbaseNetClient" version="1.2.0" />
+    </dependencies>
+  </metadata>
+</package>
