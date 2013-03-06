@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CouchbaseGlimpse</id>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <title>Glimpse for Couchbase</title>
     <authors>Couchbase</authors>
     <owners>Couchbase</owners>
@@ -12,4 +12,7 @@
     <description>Couchbase client logging tab for Glimpse</description>
     <tags>Couchbase nosql</tags>
   </metadata>
+  <files>
+    <file src="*.transform" target="content" />
+  </files>
 </package>

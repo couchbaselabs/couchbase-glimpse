@@ -49,7 +49,7 @@ namespace CouchbaseGlimpseWeb
 			RegisterRoutes(RouteTable.Routes);
 
 			var config = new GlimpseLogConfiguration { IsDebugEnabled = true, IsWarnEnabled = true, IsErrorEnabled = true };
-			config.SourceWhiteList.AddRange(new[] { "PooledSocket", "ConfigHelper" });
+			//config.SourceWhiteList.AddRange(new[] { "PooledSocket", "ConfigHelper" });
 			GlimpseLogger.Configure(config);
 		}
 	}

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>CouchbaseGlimpse</id>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <title>Glimpse for Couchbase</title>
     <authors>Couchbase</authors>
     <owners>Couchbase</owners>
@@ -10,6 +10,9 @@
     <projectUrl>http://github.com/couchbaselabs/couchbase-glimpse</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Couchbase client logging tab for Glimpse</description>
+    <releaseNotes />
+    <copyright />
+    <language />
     <tags>Couchbase nosql</tags>
     <dependencies>
       <dependency id="CouchbaseNetClient" version="1.2.2" />
