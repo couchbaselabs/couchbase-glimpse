@@ -26,7 +26,6 @@ namespace Couchbase.Glimpse
 		public override object GetData(ITabContext context)
 		{
 			var data = new List<object[]> { new[] { "Level", "Timestamp", "Source", "Message", "Exception", "Thread" } };
-			var debug = new List<object[]> { };
 
 			Action<Dictionary<string, List<GlimpseLogRow>>> addData = (d) =>
 				{
